@@ -1,0 +1,21 @@
+
+number => 2
+// bigint = 955985223564222n
+// string => ""
+// boolean => true/false
+// null => standalone value
+// undefined => value is not assigned yet
+// symbol => unique
+
+
+
+Type of value	    Result
+
+Undefined    	    "undefined"
+Null	            "object"
+Boolean	            "boolean"
+Number	            "number"
+String	            "string"
+Object         	    "object"
+Object              "function"
+Object              Implementation-defined except may not be "undefined", "boolean", "number", or "string".

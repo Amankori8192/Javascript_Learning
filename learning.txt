@@ -10,12 +10,12 @@ number => 2
 
 
 Type of value	    Result
-
-Undefined    	    "undefined"
-Null	            "object"
-Boolean	            "boolean"
-Number	            "number"
-String	            "string"
-Object         	    "object"
-Object              "function"
-Object              Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+ Undefined    	    "undefined
+ Null	            "object"
+ Boolean	        "boolean"
+ Number	            "number"
+ String	            "string"
+ Object         	"object"
+ function           "function" /  function object
+ array              "object"
+ Symbol             "symbol"

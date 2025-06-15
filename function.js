@@ -134,5 +134,5 @@ const addTwo = (num1, num2) => ({username: "hitesh"})
 
 ( (name) => {
     console.log(`DB CONNECTED TWO ${name}`);
-} )('hitesh')
+} )('Aakash')
 

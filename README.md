@@ -1,2 +1,2 @@
 # Javascript
-Purpose : Learning &amp; Interview Prepation
+A code repo for javascript learning..

@@ -34,11 +34,23 @@ const arr = [1, 2, 21, 3, 0, 6, 7, 14, 6];
 const sortedArr = arr.sort((a, b) => a - b);
 // console.log(sortedArr);
 
+
 // How to deep clone an obj
 
 const deepClone = (obj) => {
   JSON.parse(JSON.stringify(obj));
 };
+
+
+
+// let str = "i am aman";
+// let upd = str
+//   .split(" ")
+//   .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(" ");
+
+//   console.log(upd)
+
+
 
 // const arr1 = [];
 // const arr2 = [];
@@ -108,6 +120,13 @@ function abc(){
 // console.log(parseInt('m7F'))
 
 
+// console.log(typeof typeof 100)  //string
+
+// const abc1 = [..."aman"]
+// console.log(abc1)
+
+
+
 // console.log(isNaN('Aman'))
 
 // console.log([1, 2].map(num => num*2))
@@ -116,4 +135,25 @@ function abc(){
 // console.log([1,2].map((num=>{
 //   if (num>0) return 
 //   return num *2
-// })))                              // [undefined, undefined]
+// })))                // [undefined, undefined]
+
+
+
+
+var a = 10;
+// console.log(++a);
+// console.log(a++);
+// console.log(a);
+
+// function abc() {
+//   console.log(abc.xyz)
+
+// }
+
+// abc()
+// abc.xyz = 400
+// abc.xyz = 200
+// abc()
+
+// console.log("A"+100)
+// console.log("A"-100)
